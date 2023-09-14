@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="anmeldung.css">
+    <title>Classic Dreams Anmeldung</title>
+</head>
+
+<body>
+    <header>
+        <div class="ha">
+            <img src="./Bilder/Logo CD.png" alt="Logo von Classic Dreams">
+            <h1>Anmeldung und Registrierung bei Classic Dreams</h1>
+            <img src="./Bilder/Logo CD.png" alt="Logo von Classic Dreams">
+        </div>
+
+    </header>
+    <main>
+        <div class="zu">
+            <a href="./index.html">
+                <button>zurück zur Hauptseite</button>
+            </a>
+        </div>
+        <div class="regili hide">
+            <div class="anre">
+                <button onclick="showAnmeldung()">Anmeldung</button>
+            </div>
+            <h2>Registrierung</h2>
+            <form action="#">
+                <ul class="container regi hode">
+                    <li class="rgi">Vorname</li>
+                    <input required type="text">
+                    <li class="rgi">Nachname</li>
+                    <input required type="text">
+                    <li class="rgi">email</li>
+                    <input required type="email" name="" id="">
+                    <li class="rgi">Telefonnummer</li>
+                    <input required type="tel" name="" id="">
+                    <li class="rgi">Geburtstag</li>
+                    <input required type="date" name="" id="">
+                    <li class="rgi">Postleitzahl</li>
+                    <input required type="text">
+                    <li class="rgi">Ort</li>
+                    <input required type="text">
+                    <li class="rgi">Straße und Hausnummer</li>
+                    <input required type="text">
+                    <li class="rgi">Ausstellungsdatum Führerscheinklasse B (alt 3)</li>
+                    <input required type="date" name="" id="">
+                    <li class="rgi">Passwort erstellen</li>
+                    <input required type="password" name="" id="">
+                    <li class="rgi">Passwort wiederholen</li>
+                    <input required type="password" name="" id="">
+                </ul>
+                <div class="su">
+                    <button type="submit">SENDEN</button>
+                </div>
+            </form>
+        </div>
+        <div class="anmel">
+            <div class="rean">
+                <button onclick="showRegister()">Registrierung</button>
+            </div>
+            <h2>Anmeldung</h2>
+            <form action="#">
+                <ul class="container anmel">
+                    <li class="anme">email</li>
+                    <input required="email" name="" id="">
+                    <li class="anme">Passwort</li>
+                    <input required="password" name="" id="">
+                </ul>
+                <div class="su">
+                    <button type="submit">SENDEN</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <!-- ab hier ist alles nur für die Optik (ohne Funktion) -->
+    <div class="eigen">
+        <section>
+            <h5>Kontakt</h5>
+            <p>Kundenbetreuung</p>
+            <p>Standorte</p>
+        </section>
+        <section>
+            <h5>Über Classic Dreams</h5>
+            <p>Unternehmen</p>
+            <p>Karriere</p>
+        </section>
+    </div>
+    <footer>
+        <ul class="imp">
+            <li>Impressum</li>
+            <li>Datenschutz</li>
+            <li>Rechtlicher Hinweis</li>
+            <li>Cookies</li>
+        </ul>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>

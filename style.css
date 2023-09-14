@@ -1,0 +1,211 @@
+body {
+    margin: 0px;
+    background-color: rgb(3, 3, 53);
+}
+
+header {
+    color: aliceblue;
+    font-style: italic;
+    font-size: x-large;
+}
+
+header h1:hover {
+    transform: scale(2.5);
+    transition: transform 1s;
+}
+
+header h2 {
+    color: aliceblue;
+}
+
+.ha {
+    height: 200px;
+    background-color: rgb(1, 1, 36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid white;
+}
+
+.ha img {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 3px;
+}
+
+.anreg {
+    text-align: center;
+}
+
+.anreg button:hover {
+    background-color: chartreuse;
+    transform: scale(2.5);
+    cursor: pointer;
+}
+
+h2 {
+    color: goldenrod;
+    text-align: center;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+main h1 {
+    text-align: center;
+    color: brown;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+main p {
+    color: goldenrod;
+    text-align: center;
+    font-size: x-large;
+}
+
+.text {
+    margin: 10px;
+    color: bisque;
+}
+
+.charger {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: bisque;
+    text-align: center;
+}
+
+.charger img {
+    height: 300px;
+    width: 500px;
+}
+
+.bullitt {
+    transform: rotate(-15deg);
+    margin: 70px;
+    transition: transform 1s;
+}
+
+.bullitt:hover {
+    transform: rotate(0deg) scale(1.5);
+}
+
+.general:hover {
+    transform: scale(1.5);
+    transition: transform 1s;
+}
+
+.blade {
+    transform: rotate(15deg);
+    margin: 70px;
+    transition: transform 1s;
+}
+
+.blade:hover {
+    transform: rotate(0deg) scale(1.5);
+}
+
+.verf {
+    text-align: center;
+}
+
+.verf button:hover {
+    background-color: chartreuse;
+    transform: scale(2.5);
+    cursor: pointer;
+}
+
+.widc a {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    color: rgb(1, 116, 1);
+}
+
+.widc a:hover {
+    color: blueviolet;
+    transform: scale(1.5);
+}
+
+.fastback img {
+    height: 300px;
+    width: 500px;
+}
+
+.fastback {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    color: bisque;
+    text-align: center;
+}
+
+.bu {
+    transform: rotate(-15deg);
+    margin: 70px;
+    margin-left: 300px;
+    transition: transform 1s;
+}
+
+.bu:hover {
+    transform: rotate(0deg) scale(1.5);
+}
+
+.merc:hover {
+    transform: scale(1.5);
+    transition: transform 1s;
+}
+
+.el {
+    transform: rotate(15deg);
+    margin: 70px;
+    margin-right: 300px;
+    transition: transform 1s;
+}
+
+.el:hover {
+    transform: rotate(0deg) scale(1.5);
+}
+
+.fordli {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.eigen {
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    color: aliceblue;
+    background-color: rgb(1, 1, 36);
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+}
+
+.imp {
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+    margin-right: 50px;
+}
+
+.imp li {
+    color: bisque;
+    margin-top: 15px;
+}
